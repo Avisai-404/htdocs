@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(foto/panfondo4.png) right no-repeat, url(foto/panfondo2.png) ;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+
+img{
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+  border: 1px solid white;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(73, 73, 73);
+    border: 1px solid white;
+    margin: auto;
+  }
+
+h2 {
+    font-size: 28px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border: 1px solid white;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(66, 46, 46);
+    border: 1px solid white;
+    margin: auto;
+  }
+
+.contenedor{
+    width: 470px;
+    margin: 40px;
+    
+}
+
+.contenedor .formulario .contenedor-inputs{
+    padding: 20px;
+    background: rgba(94, 92, 92, 0.699);
+    border: 2px solid white;
+    border-radius: 6px 6px 0 0;
+}
+
+.contenedor .formulario input[type="text"],
+.contenedor .formulario input[type="email"]{
+    
+    width: 100%;
+    margin-bottom: 20px;
+    padding:  10px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+
+.contenedor .formulario input[type="text"]:focus,
+.contenedor .formulario input[type="email"]:focus{
+     border-bottom: 2px solid #246eb9;
+}
+
+.contenedor .formulario input[type="radio"]{
+    display: none;
+}
+
+.contenedor .formulario .producto .concha{
+    border-radius: 7px 0 0 7px;
+}
+
+.contenedor .formulario .producto .oreja{
+    border-radius: 0px 7px 7px 0px;
+}
+
+.contenedor .formulario .producto{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.contenedor .formulario .label-radio{
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+.contenedor .formulario input[type="radio"]:checked + .label-radio{
+    background: #979593;
+    border: 2px solid white;
+}
+
+.contenedor .formulario .terminos{
+    text-align: center;
+    color: #ffffff;
+}
+
+.contenedor .formulario label{
+    margin-left: 10px;
+}
+
+.contenedor .formulario .error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #ce1818;
+    color: #fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+.contenedor .formulario .btn{
+    width: 100%;
+    text-align: center;
+    background: #2a2c2c;
+    color: #fff;
+    border: 2px solid white;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+
+.contenedor .formulario .btn:hover{
+    background: #adaeb1;
+}
+
+.contenedor .tabla{
+    margin: 50px 0 0 0;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px 6px 6px 6px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#dadedc;}
+
+
+
+

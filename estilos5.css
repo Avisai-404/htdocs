@@ -1,0 +1,31 @@
+h2 {
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-align: center;
+  background: #ccc;
+  margin: auto;
+}
+
+form {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.911);
+  margin: auto;
+  padding: 10px;
+  border: 6px solid #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: url(foto/panfondo2.png);
+}
+
+img {
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+}
+
+p {
+  color: black;
+}

@@ -1,0 +1,143 @@
+.main-exchange-container {
+    margin-top: 0;
+}
+
+.main-tables-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 45px;
+}
+
+.table-container {
+    margin-left: 0;
+    grid-template-areas: "titulo titulo"
+                        "contenido contenido"
+                        "fecha fecha";
+}
+
+.item.date {
+    margin-left: 12px;
+}
+
+.table-container2 {
+    margin-left: 0;
+    grid-template-areas: "titulo titulo"
+                        "contenido contenido"
+                        "fecha fecha";
+}
+
+.bitcoin-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bitcoin-img-container h2 {
+    font-size: 4.4rem;
+}
+
+.footer-right img {
+    width: 100px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header--title-container h1, 
+    .main-exchange-container--title h2, 
+    .product-detail--title h2, 
+    .plans--title h2 {
+        font-size: 4.0rem;
+        line-height: 4.2rem;
+    }
+
+    .header--title-container p, 
+    .main-exchange-container--title p, 
+    .product-detail--title p, 
+    .plans--title p {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+    }
+
+    .header img {
+        width: 300px;
+        height: 48px;
+    }
+
+    .header--title-container .header--button {
+        width: 300px;
+        font-size: 2.0rem;
+        padding: 10px;
+        left: calc(50% - 150px);
+    }
+
+    .product-detail--card {
+        padding: 30px;
+    }
+
+    .product--card-title {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+    
+    .product--card-body {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+    }
+
+    .product-detail--card .clock {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .product-detail--card .eye {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .product-detail--card .dolar {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .product-detail--card .check {
+        width: 32px;
+        height:32px;
+    }
+    
+    .plans-container--slider {
+        justify-content: center;
+    } 
+    .plans-container--card:nth-of-type(2) {
+        margin-top: 20px;
+    }
+    
+    .plans-container--card .card--recommended {
+        left: calc(50% - 75px);
+        width: 150px;
+        height: 35px;
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    .plan-card-container {
+        padding-top: 35px;
+    }
+    
+    .plan-card-container .plan-card--title {
+        font-size: 2.0rem;
+    }
+
+    .plan-card-container .plan-card--description {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    .plan-card-container .plan-card--button {
+        font-size: 1.5rem;
+    }
+
+    .footer-left ul li a {
+        font-size: 1.8rem;
+    }
+}
